@@ -11,9 +11,9 @@
 
     <form action = "https://www.google.com">
         <label for = "name"> First Name: </label>
-        <input id = "name" name="firstname" type = "text" required>
+        <input id = "name" name="firstname" type = "text" placeholder = "John" required>
         <label for="surname"> Last Name: </label>
-        <input id = "surname" name = "lastname" type = "text" required>
+        <input id = "surname" name = "lastname" type = "text" placeholder = "Smith"  required>
 
         <br>
         <label for = "male"> Male </label>
@@ -24,6 +24,93 @@
 
         <label for = "other"> Other</label>
         <input id = "other" name = "gender" type = "radio" value = "other">
+        
+        <br>
+        <label for = "email">Email : </label>
+        <input id = "email" name = "Email" type = "email" placeholder = "your email" required>
+
+        <label for = "password">Password: </label>
+        <input id = "password" name = "Password" type = "password" placeholder = "your password"  minlength = "5" maxlength = "10" required>
+
+        <br>
+        <label for = "birthday">Birthday:</label>
+
+        <select name = "month" id = "birthday">
+            <option value = "">Month</option>
+            <option value = "JANUARY">January</option>
+            <option value = "FEBRUARY">February</option>
+            <option value = "MARCH">March</option>
+            <option value = "APRIL">April</option>
+            <option value = "MAY">May</option>
+            <option value = "JUNE">June</option>
+            <option value = "JULY">July</option>
+            <option value = "AUGUST">August</option>
+            <option value = "SEPTEMBER">September</option>
+            <option value = "OCTOBER">October</option>
+            <option value = "NOVEMBER">November</option>
+            <option value = "DECEMBER">December</option>
+        </select>
+
+        <select name = "day" id = "birthday">
+            <option value = "">Day</option>
+            <option value = "ONE">1</option>
+            <option value = "TWO">2</option>
+            <option value = "THREE">3</option>
+            <option value = "FOUR">4</option>
+            <option value = "FIVE">5</option>
+            <option value = "SIX">6</option>
+            <option value = "SEVEN">7</option>
+            <option value = "EIGHT">8</option>
+            <option value = "NINE">9</option>
+            <option value = "TEN">10</option>
+            <option value = "ELEVEN">11</option>
+            <option value = "TWELVE">12</option>
+            <option value = "THIRTEEN">13</option>
+            <option value = "FOURTEEN">14</option>
+            <option value = "FIFTEEN">15</option>
+            <option value = "SIXTEEN">16</option>
+            <option value = "SEVENTEEN">17</option>
+            <option value = "EIGHTEEN">18</option>
+            <option value = "NINETEEN">19</option>
+            <option value = "TWENTY">20</option>
+            <option value = "TWENTYONE">21</option>
+            <option value = "TWENTYTWO">22</option>
+            <option value = "TWENTYTHREE">23</option>
+            <option value = "TWENTYFOUR">24</option>
+            <option value = "TWENTYFIVE">25</option>
+            <option value = "TWENTYSIX">26</option>
+            <option value = "TWENTYSEVEN">27</option>
+            <option value = "TWENTYEIGHT">28</option>
+            <option value = "TWENTYNINE">29</option>
+            <option value = "THIRTY">30</option>
+            <option value = "THIRTYONE">31</option>
+        </select>
+
+        <select name = "year" id = "birthday">
+            <option value = "">Year</option>
+            <option value = "2000">2000</option>
+            <option value = "2001">2001</option>
+            <option value = "2002">2002</option>
+            <option value = "2003">2003</option>
+            <option value = "2004">2004</option>
+            <option value = "2005">2005</option>
+            <option value = "2006">2006</option>
+            <option value = "2007">2007</option>
+            <option value = "2008">2008</option>
+            <option value = "2009">2009</option>
+            <option value = "2010">2010</option>
+            <option value = "2011">2011</option>
+            <option value = "2012">2012</option>
+            <option value = "2013">2013</option>
+        </select>
+
+        <br>
+        <label for = "terms&conditions">I agree to the terms and conditions</label>
+        <input id = "terms&conditions" type = "checkbox" name = "Terms&Conditions" value = "accepted">
+
+        <br>
+        <input type = "Submit">
+        
     </form>
 </body>
 </html>
