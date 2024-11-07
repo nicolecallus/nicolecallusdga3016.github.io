@@ -1,7 +1,28 @@
 
-h1 {
-  font-family: "Source Sans 3", sans-serif;
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  border:10ppx solid #bdc7cf;
+  
+
+
+  margin-left: 30%;
+  margin-right: 30%;
+ 
   /*font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;*/
+}
+
+h1{
+  
+  text-transform:uppercase;
+  color: #3098dd;
+}
+
+h2{
+  color: #354b63;
+}
+
+.border{
+  border-left: #bdc7cf;
 }
