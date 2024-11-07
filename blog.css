@@ -1,12 +1,12 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  border:10ppx solid #bdc7cf;
+  border:15px solid #bdc7cf;
+  margin: 0 auto;
   
 
-
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
  
   /*font-optical-sizing: auto;
   font-weight: <weight>;
@@ -26,3 +26,4 @@ h2{
 .border{
   border-left: #bdc7cf;
 }
+
